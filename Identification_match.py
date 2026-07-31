@@ -41,8 +41,8 @@ def match_by_theoretical_mw(exp_mz, db_row):
     # 计算ppm误差
     ppm_error = abs((exp_mz - db_mw) / db_mw) * 1e6
 
-    # 20ppm容差内视为匹配
-    return ppm_error <= 20, ppm_error
+    # 5ppm容差内视为匹配
+    return ppm_error <= 5, ppm_error
 
 
 def join_unique_strings(series):
