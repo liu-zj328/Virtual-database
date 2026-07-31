@@ -1,3 +1,4 @@
 # Virtual-database
 Virtual database used for PIL-DDA acquisition
 This study proposes a comprehensive data analysis strategy that combines a virtual database with PIL (Progressive Injection Leaching) acquisition. This method uses a virtual database of flavonoids and triterpenoids as a precursor ion list, enabling targeted acquisition of compounds in a data-dependent acquisition mode, thus allowing for in-depth characterization of trace metabolites in natural products. Furthermore, this virtual database can also be used as a template for matching precursor ions to rapidly screen potential target compounds.
+The input files for running the code include RAW.msp, Database.xlsx, and Virtual_databases_merge.xlsx, all of which are provided.
