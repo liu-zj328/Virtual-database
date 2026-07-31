@@ -1,0 +1,31 @@
+# MSP mass-to-database matcher (v1.0.0)
+
+A lightweight Python script for matching experimental precursor ions from an MSP file against theoretical molecular weights in two local compound databases (Excel format). The match tolerance is **20 ppm**. Only compounds with retention time > 2 minutes are considered.
+
+---
+
+## Version
+**v1.0.0** (2026-07-31)
+
+---
+
+## System Requirements
+
+- Python 3.6 or higher
+- pip (Python package installer)
+
+### Dependencies
+The following Python packages are required:
+- `pandas` (≥1.0)
+- `openpyxl` (for reading/writing Excel files)
+
+> Built‑in libraries used: `re`
+
+---
+
+## Installation
+
+1. Clone or download the script to your local machine.
+2. Install the required Python packages:
+   ```bash
+   pip install pandas openpyxl
